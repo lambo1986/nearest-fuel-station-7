@@ -26,7 +26,7 @@ To complete this user story, you will need to use two external APIs:
 
 #### Reminders
 * Your API keys must remain hidden - do not commit them or expose them publicly. 
-* Your tests should use fixture data; do not mamke live API calls from your tests. However, when a user launches this application via `rails s`, they should be able to get live data from those APIs. 
+* Your tests should use fixture data; do not make live API calls from your tests. However, when a user launches this application via `rails s`, they should be able to get live data from those APIs. 
 * Utilize SimpleCov to measure your test coverage; aim for at least 90%. 
 
 ### User Story 
