@@ -6,7 +6,7 @@ RSpec.describe "landing page", vcr: true, type: :feature do
       visit root_path
 
       expect(current_path).to eq("/")
-      
+
       select "Griffin Coffee", from: :location
       click_button "Find Nearest Station"
 
