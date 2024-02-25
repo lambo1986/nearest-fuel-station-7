@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
   def index
-    require 'pry'; binding.pry
     @station = StationFacade.new.station_near_location(params[:location])
+    @directions = DirectionsFacade.new.here_to_there(@station.address, params[:location])
   end
 end
