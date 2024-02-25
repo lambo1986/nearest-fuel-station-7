@@ -16,6 +16,7 @@ RSpec.describe "landing page", vcr: true, type: :feature do
       expect(page).to have_content("Address: 5505 W 20th Ave, 80214")
       expect(page).to have_content("Fuel Type: ELEC")
       expect(page).to have_content("Access Times: 24 hours daily")
+      
     end
   end
 end
